@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#560FA9F1"
+    android:fitsSystemWindows="true">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Imagen de la película -->
+        <ImageView
+            android:id="@+id/imagenDetalle"
+            android:layout_width="120dp"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/tituloDetalle"
+            style="@style/estiloTexto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="TÍTULO"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/imagenDetalle"
+            app:layout_constraintTop_toTopOf="@id/imagenDetalle" />
+
+        <!-- Director -->
+        <TextView
+            android:id="@+id/directorDetalle"
+            style="@style/estiloTexto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="DIRECTOR:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tituloDetalle"
+            app:layout_constraintTop_toBottomOf="@id/tituloDetalle" />
+
+        <!-- Clasificación -->
+        <TextView
+            android:id="@+id/clasificacionLabel"
+            style="@style/estiloTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="CLASIFICACIÓN:"
+            app:layout_constraintStart_toStartOf="@id/tituloDetalle"
+            app:layout_constraintTop_toBottomOf="@id/directorDetalle" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:stepSize="1.0"
+            app:layout_constraintStart_toStartOf="@id/clasificacionLabel"
+            app:layout_constraintTop_toBottomOf="@id/clasificacionLabel" />
+
+        <!-- Reparto -->
+        <TextView
+            android:id="@+id/repartoDetalle"
+            style="@style/estiloTexto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="REPARTO:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imagenDetalle" />
+
+        <!-- Sinopsis -->
+        <TextView
+            android:id="@+id/sinopsisDetalle"
+            style="@style/estiloTexto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:lineSpacingExtra="2dp"
+            android:text="SINOPSIS"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/repartoDetalle" />
+
+        <!-- Temporadas (solo series) -->
+        <TextView
+            android:id="@+id/temporadasDetalle"
+            style="@style/estiloTexto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="8dp"
+            android:text="TEMPORADAS"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sinopsisDetalle" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
