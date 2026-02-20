@@ -42,7 +42,9 @@ Instalación
 
 1. Clonar el repositorio:
 
-git clone https://github.com/ManuelCastro-Peinado/FilmingApp.git
+ git clone https://github.com/ManuelCastro-Peinado/FilmingApp.git
 
 2. Abrir en Android Studio
 3. Ejecutar en emulador o dispositivo
+
+Autor Manuel Castro Peinado.
