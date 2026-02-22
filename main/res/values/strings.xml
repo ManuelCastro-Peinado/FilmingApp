@@ -11,5 +11,58 @@
     <string name="menu_gallery">Películas</string>
     <string name="menu_slideshow">Series</string>
     <string name="texto_bienvenida">Bienvenido a mi página de recomendaciones de películas y series, solo lo mejor para nuestros visitantes</string>
+    <!-- ======================= PELÍCULAS ======================= -->
+
+<string name="dragon_titulo">Cómo entrenar a tu dragón</string>
+<string name="dragon_director">Director: Dean DeBlois</string>
+<string name="dragon_reparto">Reparto: Jay Baruchel, America Ferrera</string>
+<string name="dragon_sinopsis">Sinópsis: La adaptación live-action de "Cómo entrenar a tu dragón" (2025), dirigida por Dean DeBlois, narra la historia de Hipo, un joven vikingo que no encaja en la tradición de cazar dragones de su tribu en la Isla Mema. Su vida cambia al entablar amistad con Desdentao, un Furia Nocturna, revelando la verdadera naturaleza de los dragones y desafiando la sociedad vikinga.</string>
+
+<string name="broly_titulo">Dragon Ball Super: Broly</string>
+<string name="broly_director">Director: Tatsuya Nagamine</string>
+<string name="broly_reparto">Reparto: Goku (Mario Castañeda), Vegeta (René García), Broly (José Meco)</string>
+<string name="broly_sinopsis">Sinópsis: La paz ha regresado una vez más a la Tierra tras el Torneo de Poder. Al descubrir que en los diferentes universos hay seres increíblemente poderosos que aún no ha visto, Goku tiene intención de seguir entrenando para hacerse aún más fuerte. Entonces, un día, un saiyan llamado Broly al que nunca antes han visto se presenta ante Goku y Vegeta.</string>
+
+<string name="jumanji_titulo">Jumanji</string>
+<string name="jumanji_director">Director: Joe Johnston</string>
+<string name="jumanji_reparto">Reparto: Robin Williams, Bonnie Hunt</string>
+<string name="jumanji_sinopsis">Sinópsis: Alan Parris queda atrapado en un juego de mesa mágico y muy antiguo llamado Jumanji. Nadie cree a su compañera de juego cuando cuenta lo ocurrido. Veinticinco años más tarde, es liberado por dos niños, pero una manada de animales exóticos queda también en libertad.</string>
+
+<string name="piratas_titulo">Piratas del Caribe</string>
+<string name="piratas_director">Director: Gore Verbinski</string>
+<string name="piratas_reparto">Reparto: Johnny Depp, Orlando Bloom, Keira Knightley</string>
+<string name="piratas_sinopsis">Sinópsis: El capitán Barbossa le roba el barco al pirata Jack Sparrow y secuestra a Elizabeth, amiga de Will Turner. Barbossa y su tripulación son víctimas de un conjuro que los condena a vivir eternamente y a transformarse cada noche en esqueletos vivientes.</string>
+
+<string name="ready_titulo">Ready Player One</string>
+<string name="ready_director">Director: Steven Spielberg</string>
+<string name="ready_reparto">Reparto: Tye Sheridan, Olivia Cooke</string>
+<string name="ready_sinopsis">Sinópsis: Año 2045. El adolescente Wade Watts es solo uno de los millones de personas que se evaden del sombrío mundo real para sumergirse en un mundo utópico virtual donde todo es posible: OASIS. Wade participa en la búsqueda del tesoro que el creador de este mundo imaginario dejó oculto en su obra. No obstante, hay gente muy peligrosa compitiendo contra él.</string>
+
+<!-- ======================= SERIES ======================= -->
+
+<string name="calamar_titulo">Juego del Calamar</string>
+<string name="calamar_director">Director: Hwang Dong-hyuk</string>
+<string name="calamar_reparto">Reparto: Lee Jung-jae, Park Hae-soo, Jung Ho-yeon</string>
+<string name="calamar_sinopsis">Sinópsis: El Juego del Calamar es una serie de suspense distópico de Netflix donde 456 personas con graves apuros financieros compiten en juegos infantiles tradicionales coreanos por un premio de 45.600 millones de wones. El protagonista, Seong Gi-hun, arriesga su vida en retos mortales donde perder significa la ejecución inmediata.</string>
+
+<string name="breaking_titulo">Breaking Bad</string>
+<string name="breaking_director">Director: Vince Gilligan</string>
+<string name="breaking_reparto">Reparto: Bryan Cranston, Aaron Paul, Anna Gunn</string>
+<string name="breaking_sinopsis">Sinópsis: Breaking Bad narra la transformación de Walter White, un frustrado profesor de química de secundaria diagnosticado con cáncer de pulmón inoperable. Para asegurar el futuro económico de su familia, se alía con su exalumno Jesse Pinkman para producir y vender metanfetamina de gran pureza, adentrándose en el peligroso mundo criminal.</string>
+
+<string name="simpsons_titulo">Los Simpsons</string>
+<string name="simpsons_director">Director: Matt Groening</string>
+<string name="simpsons_reparto">Reparto: Homer (Dan Castallenata), Marge (Julie Kavner), Bart (Nancy Cartwright), Lisa (Yeardley Smith)</string>
+<string name="simpsons_sinopsis">Sinópsis: Los Simpson es una icónica serie de animación y sátira de la sociedad estadounidense, centrada en una peculiar familia de clase media —Homer, Marge, Bart, Lisa y Maggie— que reside en la ciudad ficticia de Springfield. A través de su vida cotidiana, la serie retrata de manera cómica y crítica la cultura, política y valores de la América media.</string>
+
+<string name="merlin_titulo">Merlin</string>
+<string name="merlin_director">Director: Chris Chibnall</string>
+<string name="merlin_reparto">Reparto: Colin Morgan, Bradley James, Katie McGrath</string>
+<string name="merlin_sinopsis">Sinópsis: Merlín es una serie británica de fantasía que reimagina la leyenda artúrica, enfocándose en la juventud del mago cuando llega a Camelot. Allí, debe ocultar sus poderes mágicos, prohibidos por el rey Uther, mientras protege al príncipe Arturo, convirtiéndose en su sirviente y, eventualmente, en su mejor amigo.</string>
+
+<string name="kingdom_titulo">The Last Kingdom</string>
+<string name="kingdom_director">Director: Peter Hoar</string>
+<string name="kingdom_reparto">Reparto: Alexander Dreymon, David Dawson, Emily Cox</string>
+<string name="kingdom_sinopsis">Sinópsis: The Last Kingdom narra la historia de Uhtred de Bebbanburg en el siglo IX, un sajón criado por vikingos daneses tras ser capturado. En medio de la lucha por la unificación de Inglaterra, Uhtred debe dividir su lealtad entre su origen y su familia adoptiva mientras busca recuperar su hogar ancestral.</string>
 
 </resources>
